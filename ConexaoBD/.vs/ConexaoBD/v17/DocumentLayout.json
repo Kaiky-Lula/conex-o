@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kaiky.lsilva\\source\\repos\\ConexaoBD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93D7B347-87DE-4A10-937A-01F0D9FFE7D2}|ConexaoBD\\ConexaoBD.csproj|c:\\users\\kaiky.lsilva\\source\\repos\\conexaobd\\conexaobd\\views\\hello\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D7B347-87DE-4A10-937A-01F0D9FFE7D2}|ConexaoBD\\ConexaoBD.csproj|solutionrelative:conexaobd\\views\\hello\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D7B347-87DE-4A10-937A-01F0D9FFE7D2}|ConexaoBD\\ConexaoBD.csproj|c:\\users\\kaiky.lsilva\\source\\repos\\conexaobd\\conexaobd\\controllers\\hellocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D7B347-87DE-4A10-937A-01F0D9FFE7D2}|ConexaoBD\\ConexaoBD.csproj|solutionrelative:conexaobd\\controllers\\hellocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D7B347-87DE-4A10-937A-01F0D9FFE7D2}|ConexaoBD\\ConexaoBD.csproj|c:\\users\\kaiky.lsilva\\source\\repos\\conexaobd\\conexaobd\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D7B347-87DE-4A10-937A-01F0D9FFE7D2}|ConexaoBD\\ConexaoBD.csproj|solutionrelative:conexaobd\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D7B347-87DE-4A10-937A-01F0D9FFE7D2}|ConexaoBD\\ConexaoBD.csproj|c:\\users\\kaiky.lsilva\\source\\repos\\conexaobd\\conexaobd\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D7B347-87DE-4A10-937A-01F0D9FFE7D2}|ConexaoBD\\ConexaoBD.csproj|solutionrelative:conexaobd\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaiky.lsilva\\source\\repos\\ConexaoBD\\ConexaoBD\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ConexaoBD\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\kaiky.lsilva\\source\\repos\\ConexaoBD\\ConexaoBD\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ConexaoBD\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T23:05:57.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaiky.lsilva\\source\\repos\\ConexaoBD\\ConexaoBD\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ConexaoBD\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\kaiky.lsilva\\source\\repos\\ConexaoBD\\ConexaoBD\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ConexaoBD\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T23:04:14.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaiky.lsilva\\source\\repos\\ConexaoBD\\ConexaoBD\\Views\\Hello\\Index.cshtml",
+              "RelativeDocumentMoniker": "ConexaoBD\\Views\\Hello\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kaiky.lsilva\\source\\repos\\ConexaoBD\\ConexaoBD\\Views\\Hello\\Index.cshtml",
+              "RelativeToolTip": "ConexaoBD\\Views\\Hello\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T22:42:08.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HelloController.cs",
+              "DocumentMoniker": "C:\\Users\\kaiky.lsilva\\source\\repos\\ConexaoBD\\ConexaoBD\\Controllers\\HelloController.cs",
+              "RelativeDocumentMoniker": "ConexaoBD\\Controllers\\HelloController.cs",
+              "ToolTip": "C:\\Users\\kaiky.lsilva\\source\\repos\\ConexaoBD\\ConexaoBD\\Controllers\\HelloController.cs",
+              "RelativeToolTip": "ConexaoBD\\Controllers\\HelloController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T22:33:40.112Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

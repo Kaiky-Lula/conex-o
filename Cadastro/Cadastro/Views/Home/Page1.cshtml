@@ -1,0 +1,17 @@
+﻿@{
+	ViewBag.Title = "Página 1";
+}
+<h2>Página 1</h2>
+<form method="post" action="/Home/Page1">
+<div>
+	<label for="nome">Nome:</label>
+	<input type="text" id="nome" name="nome" required/>
+</div>
+
+<div>
+	<label for="idade">Idade:</label>
+	<input type="text" id="idade" name="idade" required/>
+</div>
+	<button type="submit">Enviar</button>
+</form>
+@* o post envia informações para o servidor, e ele recebe as informações mandadas pelo servidor em "get". *@

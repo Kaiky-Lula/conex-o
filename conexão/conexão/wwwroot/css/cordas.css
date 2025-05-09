@@ -1,0 +1,257 @@
+  /* Reset de margens e preenchimentos */
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  /* Estilo do cabeçalho */
+  header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #eeca06;
+      padding: 5px 6px;
+      color: #fff;
+      position: relative;
+  }
+
+  body {
+      background-color: #eeca06;
+  }
+
+  .logo{
+    display: flex;
+    cursor: pointer;
+  }
+
+  /* Estilo do logotipo */
+  .logo img {
+      height: 100px;
+      /* Tamanho do logotipo */
+      margin-left: 30px;
+  }
+
+  /* Estilo dos links do menu */
+  .menu {
+      display: flex;
+      list-style: none;
+
+  }
+
+  .menu li {
+      margin: 0 15px;
+  }
+
+  .menu li a {
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      display: flex;
+      align-items: left;
+
+  }
+
+
+  /* Ícones no menu (apenas para Favoritos, Carrinho e Login) */
+  .menu li.icon-only a {
+      font-size: 33px;
+      /* Tamanho dos ícones */
+      margin-top: 30%;
+  }
+
+
+  .icon-only:hover {
+      transform: scale(1.25);
+  }
+
+
+  .number {
+      display: flex;
+      margin-top: 5%;
+      color: black;
+
+  }
+
+  /* Estilo da barra de pesquisa */
+  .search-bar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 7%;
+      margin-left: 400px;
+
+
+  }
+
+  .search-bar input[type="text"] {
+      padding: 7px;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      width: 600px;
+
+  }
+
+  .search-bar button {
+      margin-left: 7px;
+      padding: 7px 7px;
+      border: none;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+  }
+
+  .botao-pesquisa:hover {
+      transform: scale(1.10);
+  }
+
+
+
+  /* Toggle do menu para mobile */
+  .menu-toggle {
+      display: none;
+      /* Esconde o ícone do menu em desktop */
+      font-size: 24px;
+      color: #fff;
+      cursor: pointer;
+  }
+
+  /* Esconde o checkbox que controla o menu mobile */
+  #menu-mobile {
+      display: none;
+  }
+
+  /* Responsividade para telas menores */
+  @media (max-width: 768px) {
+
+      /* Ajuste para exibir o ícone do menu em mobile */
+      .menu-toggle {
+          display: block;
+      }
+
+      /* Esconde o menu padrão e barra de pesquisa em mobile */
+      .menu,
+      .search-bar {
+          display: none;
+      }
+
+      /* Exibe o menu em coluna ao ativar o menu mobile */
+      #menu-mobile:checked~nav .menu {
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          top: 60px;
+          left: 0;
+          width: 100%;
+          background-color: #333;
+          padding: 10px 0;
+      }
+
+      .menu li {
+          margin: 10px 0;
+      }
+  }
+
+  .header {
+      background-color: #f1f1f1;
+      padding: 20px;
+      text-align: center;
+  }
+
+  body {
+    background: linear-gradient(to right, gray, white);
+
+}
+
+
+  .cat-corda {
+      padding-top: 20px;
+      border-bottom: 2px solid black;
+      margin-left: 500px;
+      display: flex;
+   
+  }
+
+/* Animações nas imagens */
+  .guitarra:hover{
+    transform: scale(1.10);
+    cursor: pointer;
+  }
+
+  .violao:hover{
+    transform: scale(1.10);
+    cursor: pointer;
+  }
+
+  .cavaco:hover{
+    transform: scale(1.10);
+    cursor: pointer;
+  }
+
+  .cat-corda img {
+      height: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      border: 4px solid black;
+
+  }
+
+
+  .cat-corda p {
+      font-size: 20px;
+      text-align: center;
+      color: black;
+  }
+
+  .produtos-corda {
+      width: 100px;
+      height: 100px;
+      display: flex;
+      gap: 10rem;
+      padding-top: 10px;
+      margin-left: 17%;
+
+  }
+
+   h4 {
+    padding-top: 30px;
+    color: black;
+  font-family: Arial, Helvetica, sans-serif;
+      font-size: 30px;
+      white-space: nowrap;
+      /* aqui deixa o texto sem quebra de linha */
+      padding-left: 20px;
+      
+     
+      
+
+  }
+
+  .produtos-corda img {
+      height: 200px;
+
+  }
+
+  .nome-guitarra,
+  .preco-guitarra {
+      text-align: center;
+      color: black;
+  }
+
+  .nome-violao,
+  .preco-violao {
+      text-align: center;
+      color: black;
+  }
+
+  .nome-cavaco,
+  .preco-cavaco {
+      text-align: center;
+      color: black;
+  }
+
+
+  

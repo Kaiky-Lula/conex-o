@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eeca06;
+    padding: 5px 6px;
+    color: #fff;
+    position: relative;
+}
+
+body {
+    background-color: #eeca06;
+}
+
+.logo{
+  display: flex;
+  cursor: pointer;
+}
+
+/* Estilo do logotipo */
+.logo img {
+    height: 100px;
+    /* Tamanho do logotipo */
+    margin-left: 30px;
+}
+
+/* Estilo dos links do menu */
+.menu {
+    display: flex;
+    list-style: none;
+
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: left;
+
+}
+
+
+/* Ícones no menu (apenas para Favoritos, Carrinho e Login) */
+.menu li.icon-only a {
+    font-size: 33px;
+    /* Tamanho dos ícones */
+    margin-top: 30%;
+}
+
+
+.icon-only:hover {
+    transform: scale(1.25);
+}
+
+
+.number {
+    display: flex;
+    margin-top: 5%;
+    color: black;
+
+}
+
+/* Estilo da barra de pesquisa */
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7%;
+    margin-left: 400px;
+
+
+}
+
+.search-bar input[type="text"] {
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 600px;
+
+}
+
+.search-bar button {
+    margin-left: 7px;
+    padding: 7px 7px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.botao-pesquisa:hover {
+    transform: scale(1.10);
+}
+
+
+
+/* Toggle do menu para mobile */
+.menu-toggle {
+    display: none;
+    /* Esconde o ícone do menu em desktop */
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Esconde o checkbox que controla o menu mobile */
+#menu-mobile {
+    display: none;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+
+    /* Ajuste para exibir o ícone do menu em mobile */
+    .menu-toggle {
+        display: block;
+    }
+
+    /* Esconde o menu padrão e barra de pesquisa em mobile */
+    .menu,
+    .search-bar {
+        display: none;
+    }
+
+    /* Exibe o menu em coluna ao ativar o menu mobile */
+    #menu-mobile:checked~nav .menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        padding: 10px 0;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+}
+
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+  background: linear-gradient(to right, gray, white);
+overflow: hidden;
+}
+
+.shop{
+    font-size: 50px;
+    position: relative;
+    top: 50px;
+    left: 940px;
+    border-bottom: 3px solid black;
+    
+}
+
+.detalhes-violao{
+bottom: 150px;
+position: relative;
+height: 100%;
+}
+
+.borda{
+    border: 7px solid #eeca06;
+    width: 550px;
+    height: 330px;
+    position: relative;
+    bottom:700px;
+    left: 990px;
+    border-radius: 10px;
+}
+
+.borda-img{
+    border: 7px solid #eeca06;
+    width: 450px;
+    height: 530px;
+    position: relative;
+    bottom: 1050px;
+    left: 500px;   
+    border-radius: 10px;
+    
+}
+
+
+.img-principal{
+    height: 340px;
+    margin-left: 30%;
+    padding-top: 30px;
+    display: block;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 6px 6px 22px 2px black;
+}
+
+.foto1{
+    margin-top: 10px;
+    height:100px;
+    margin-left: 560px; 
+    border: 4px solid #eeca06;
+    border-radius: 10px;
+    box-shadow: 6px 6px 22px 2px black;
+    
+}
+
+.foto2{
+    margin-top: 10px;
+    height:100px;
+    margin-left: 6px;
+    border: 4px solid #eeca06;
+    border-radius: 10px;
+    box-shadow: 6px 6px 22px 2px black;
+}
+
+.foto3{
+    margin-top: 10px;
+    height:100px;
+    margin-left: 8px; 
+    border: 4px solid #eeca06;
+    border-radius: 10px;
+    box-shadow: 6px 6px 22px 2px black;
+}
+
+.nome-vio {
+    margin-left: 1000px;
+    position: relative;
+    top: 260px;
+}
+
+.desc-vio {
+    margin-left: 1000px;
+    position: relative;
+    top: 220px;
+    font-size: 20px;
+    
+}
+
+.avaliacao-violao{
+    position: relative;
+    top: 270px;
+    margin-left: 1400px;
+    border-radius: 15px;
+    font-size: 20px;   
+}
+
+.preco-violao{
+    position: relative;
+    top: 220px;
+    margin-left: 1100px;
+    color: black;
+    font-size: 20px;
+}
+
+.cep{
+    position: relative;
+    bottom: 90px;
+    margin-left: 1000px;
+    font-size: 20px;
+}
+
+.cep i{
+    position: relative;
+    left: -100px;
+    font-size: 25px;
+    top: 5px;
+}
+
+.comprar{
+    position: relative;
+    margin-left: 1400px;
+    bottom: 1290px;
+    color: black;
+    font-size: 20px;
+    
+}
+
+.comprar input{
+    border-radius: 10px;
+}
+
+.comprar :hover{
+   background-color: white;
+   background-color: #eeca06;
+}
+
+footer{
+    background-color:white;
+    color: black;
+    padding: 40px 0;
+    bottom: 900px;
+}
+
+footer .linha1{
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 40px;
+ 
+}
+
+.linha1 h2{
+font-size: 2.5rem;
+}
+
+.linha1 p{
+font-size: 1.2rem;
+margin: 10px 0 20px 0;
+}
+
+.linha1 form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linha1 form input[type=email]{
+    width: 300px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid;
+    color: #eeca06;
+    padding: 10px;
+}
+
+.linha1 form input[type=submit]{
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.linha1 form input[type=submit]:hover{
+    background-color: white;
+    color: black;
+}
+
+footer .linha2{
+padding: 40px 0;
+display: flex;
+justify-content: space-between;
+border-bottom: 2px solid black;
+
+}
+
+footer .linha2 .box-line-footer{
+    max-width:calc(100% / 4);
+    
+}
+
+footer .box-line-footer img{
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.linha2 .box-line-footer h3{
+    color:#eeca06;
+    margin-bottom: 20px;
+}
+
+.linha2 .box-line-footer a{
+    color: black;
+    display: block; /* aqui as coisas ficam embaixo das outras */
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+.box-line-footer .btn-redes a{
+    display: inline;
+}
+
+.box-line-footer .btn-redes button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 2px solid;
+    color: black;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.box-line-footer .btn-redes button:hover{
+    transform: scale(1.10);
+}
+
+.linha3 h3{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.box-line-footer .btn-pay img{
+    height: 40px;
+    margin-left: 10%;
+}
+
+.box-line-footer .btn-pay button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10%;
+}
+
+.box-line-footer .btn-pay a{
+    display: inline-block;
+}
+
+.box-line-footer .btn-pay button:hover{
+    transform: scale(1.10);
+}
+
+.box-line-footer .btn-envio img{
+    height: 50px;
+    
+}
+
+.box-line-footer .btn-envio button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.box-line-footer .btn-envio a{
+    display: inline;
+}
+
+.box-line-footer .btn-envio button:hover{
+    transform: scale(1.10);
+}

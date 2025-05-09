@@ -1,0 +1,158 @@
+
+.pagamento h3 {
+    position: relative;
+    top: 96px;
+    left: 200px;
+    color: black;
+    display: inline;
+    padding: 3px;
+    font-size: 50px;
+}
+
+.borda {
+    border-bottom: 2px solid black; /* esse é a linha abaixo do pagamentos */
+    top: 100px;
+    position: relative;
+    width: 638px;
+    left: 1px;
+}
+
+.opcoes {
+    position: relative;
+    top: 120px;
+    left: 180px;
+    border: 6px solid #eeca06;
+    padding: 15px; /* aqui eu aumentei espaço dentro da borda */
+    display: flex;
+    background-color: #d3d3d3;
+    width: 20%;
+}
+
+    .opcoes img {
+        height: 50px;
+        margin-left: 65px;
+        width: 60px;
+    }
+
+.opcoes1{
+    position: relative;
+    top: 150px;
+    left: 180px;
+    border: 6px solid #eeca06;
+    padding: 15px; /* aqui eu aumentei espaço dentro da borda */
+    display: flex;
+    background-color: #d3d3d3;
+    width: 20%;
+}
+
+.opcoes1 img{
+    height: 50px;
+    margin-left: 130px;
+    width: 60px;
+}
+
+.opcoes2{
+    position: relative;
+    top: 180px;
+   left: 180px;
+    border: 6px solid #eeca06;
+    padding: 6px; /* aqui eu aumentei espaço dentro da borda */
+    display: flex;
+    background-color: #d3d3d3;
+    width: 20%;
+}
+
+.opcoes2 i{
+    font-size: 40px;
+    margin-left: 140px;
+}
+
+
+.boleto{
+    font-size: 30px;
+    position: relative;
+    top: 9px;
+    height: 100%;
+}
+
+.selo{
+    height: 60px;
+    position: relative;
+    top: 200px;
+    left: 600px;
+    border: 2px solid #333;
+    border-width: 4px;
+}   
+
+.box-img{
+position: relative;
+left: 60%;
+width: 300px;
+bottom: 250px;
+}
+
+.box-img img{
+    height: 250px;
+    width: 300px;
+  margin-left: 20px;
+    
+ 
+}
+
+.box-img p{
+    position: relative;
+    left: 350px;
+    bottom: 120px;
+    font-size: 25px;
+}
+
+.box-img h5{
+bottom: 30px;
+    position: relative;
+    left: 150px;
+    font-size: 33px;
+}
+
+.money {
+    font-size: 60px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    color: black;
+    text-decoration: underline;
+}
+
+.borda-pedido {
+    border: 2px solid #eeca06;
+    padding: 280px;
+    bottom: 330px;
+    position: relative;
+    right: 4px;
+    display: inline;
+    border-width: 10px;
+    border-radius: 20px;
+}
+
+.btn-outline {
+    background-color: #d3d3d3;
+    border: 2px solid;
+    color: white;
+    border-radius: 80px;
+    position: relative;
+    left: 1480px;
+    bottom: 420px;
+    padding: 10px;
+}
+
+    .btn-outline:hover {
+        background-color: #eeca06;
+        color: black;
+        text-decoration: none;
+    }
+
+H6 {
+    position: relative;
+    bottom: 90px;
+    left: 80px;
+    font-size: 30px;
+}

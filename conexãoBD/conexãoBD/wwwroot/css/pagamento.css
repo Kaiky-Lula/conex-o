@@ -1,0 +1,324 @@
+ /* Reset de margens e preenchimentos */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eeca06;
+    padding: 5px 6px;
+    color: #fff;
+    position: relative;
+    
+}
+
+body {
+    background-color: white;
+    overflow: hidden;
+}
+
+.logo{
+  display: flex;
+  cursor: pointer;
+}
+
+/* Estilo do logotipo */
+.logo img {
+    height: 100px;
+    /* Tamanho do logotipo */
+    margin-left: 30px;
+}
+
+/* Estilo dos links do menu */
+.menu {
+    display: flex;
+    list-style: none;
+
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: left;
+
+}
+
+
+/* Ícones no menu (apenas para Favoritos, Carrinho e Login) */
+.menu li.icon-only a {
+    font-size: 33px;
+    /* Tamanho dos ícones */
+    margin-top: 30%;
+}
+
+
+.icon-only:hover {
+    transform: scale(1.25);
+}
+
+
+.number {
+    display: flex;
+    margin-top: 5%;
+    color: black;
+
+}
+
+/* Estilo da barra de pesquisa */
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7%;
+    margin-left: 400px;
+
+}
+
+.search-bar input[type="text"] {
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 600px;
+
+}
+
+.search-bar button {
+    margin-left: 7px;
+    padding: 7px 7px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.botao-pesquisa:hover {
+    transform: scale(1.10);
+}
+
+
+
+/* Toggle do menu para mobile */
+.menu-toggle {
+    display: none;
+    /* Esconde o ícone do menu em desktop */
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Esconde o checkbox que controla o menu mobile */
+#menu-mobile {
+    display: none;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+
+    /* Ajuste para exibir o ícone do menu em mobile */
+    .menu-toggle {
+        display: block;
+    }
+
+    /* Esconde o menu padrão e barra de pesquisa em mobile */
+    .menu,
+    .search-bar {
+        display: none;
+    }
+
+    /* Exibe o menu em coluna ao ativar o menu mobile */
+    #menu-mobile:checked~nav .menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        padding: 10px 0;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+}
+
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.money{
+    font-size: 60px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    color: black;
+    text-decoration: underline;
+    
+    
+}
+
+
+.pagamento h3{
+    position: relative;
+    top: 96px;
+    left: 200px;
+    color: black;
+    display: inline;
+    padding: 3px;
+    font-size: 50px;
+}
+
+.borda{
+    border-bottom: 2px solid black; /* esse é a linha abaixo do pagamentos */
+    top: 100px;
+    position: relative;
+    width: 638px; 
+    left: 1px;
+}
+.opcoes{
+    position: relative;
+    top: 120px;
+    left: 180px;
+    border: 6px solid #eeca06;
+    padding: 15px; /* aqui eu aumentei espaço dentro da borda */
+    display: flex;
+    background-color: #d3d3d3;
+    width: 20%;
+}
+
+.opcoes img{
+    height: 50px;
+    margin-left: 65px;
+    width: 60px;
+}
+
+.opcoes1{
+    position: relative;
+    top: 150px;
+    left: 180px;
+    border: 6px solid #eeca06;
+    padding: 15px; /* aqui eu aumentei espaço dentro da borda */
+    display: flex;
+    background-color: #d3d3d3;
+    width: 20%;
+}
+
+.opcoes1 img{
+    height: 50px;
+    margin-left: 130px;
+    width: 60px;
+}
+
+.opcoes2{
+    position: relative;
+    top: 180px;
+   left: 180px;
+    border: 6px solid #eeca06;
+    padding: 6px; /* aqui eu aumentei espaço dentro da borda */
+    display: flex;
+    background-color: #d3d3d3;
+    width: 20%;
+}
+
+.opcoes2 i{
+    font-size: 40px;
+    margin-left: 140px;
+}
+
+
+.boleto{
+    font-size: 30px;
+    position: relative;
+    top: 9px;
+    height: 100%;
+}
+
+.selo{
+    height: 60px;
+    position: relative;
+    top: 200px;
+    left: 600px;
+    border: 2px solid #333;
+    border-width: 4px;
+}   
+
+.box-img{
+position: relative;
+left: 60%;
+width: 300px;
+bottom: 250px;
+}
+
+.box-img img{
+    height: 250px;
+    width: 300px;
+  margin-left: 20px;
+    
+ 
+}
+
+.box-img p{
+    position: relative;
+    left: 350px;
+    bottom: 120px;
+    font-size: 25px;
+}
+
+.box-img h5{
+bottom: 30px;
+    position: relative;
+    left: 150px;
+    font-size: 33px;
+}
+
+H6{
+position: relative;
+bottom: 90px;
+left: 80px;
+font-size: 30px;
+}
+
+.borda-pedido{
+    border: 2px solid #eeca06;
+    padding: 280px;
+    bottom: 330px;
+    position: relative;
+    right: 4px;
+    display: inline;
+    border-width: 10px;
+    border-radius: 20px;
+     
+     
+}
+
+.btn-outline {
+    background-color: #d3d3d3;
+    border: 2px solid;
+    color:white;
+    border-radius: 80px;
+    position: relative;
+    left: 1480px;
+    bottom: 420px;
+    padding: 10px;
+    
+}
+.btn-outline:hover {
+    background-color: #eeca06;
+    color:black;
+    text-decoration: none;
+}

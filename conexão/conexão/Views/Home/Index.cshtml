@@ -1,0 +1,86 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="topnav">
+    <a asp-controller="Categorias" asp-action="Cordas" >Cordas</a>
+    <a asp-controller="Categorias" asp-action="Sopro" >Sopro</a>
+    <a asp-controller ="Categorias" asp-action="Percussao" >Percussão</a>
+    <a asp-controller="Categorias" asp-action="Teclas" >Teclas</a>
+</div>
+
+
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicadores -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="~/imagens.img/Categoria_Cordas.webp" alt="Imagem 1">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Frete</h5>
+                <p>Aproveite já</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="~/imagens.img/1730382270_banner_ms_black_frriday_-_2024.webp" alt="Imagem 2">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Lançamento</h5>
+                <p>Ótima Tecnologia</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Controles -->
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+    </a>
+</div>
+
+<!-- Scripts do Bootstrap e jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+@* <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> *@
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+<div class="inform">
+    <section class="icon-frete">
+        <img class="frete" src="~/imagens.img/shipping_814995.png" alt="">
+        <h4> <b>Frete grátis para todo o Brasil</b></h4>
+    </section>
+</div>
+
+<div class="timbre">
+    <h4><b>Qual é o seu timbre?</b></h4>
+
+    <img class="teclado" src="~/imagens.img/images.jfif" alt="">
+    <img class="bateria" src="~/imagens.img/transferir (2).jfif" alt="">
+    <img class="violao" src="~/imagens.img/transferir (1).jfif" alt="">
+    <img class="guitarra" src="~/imagens.img/transferir.jfif" alt="">
+    <br><br><br><br><br>
+
+</div>
+
+<div class="sobre">
+    <img class="logo-sobre" src="~/imagens.img/Imagem1-removebg-preview (1).png" alt="">
+    <br><br>
+    <h2>Sobre nós</h2>
+    <br>
+    <p>
+        Com grande entusiasmo, anunciamos a chegada de uma nova referência para todos os amantes da música: a Turner Studio! Localizada no coração da cidade, nossa loja é o destino definitivo para músicos e entusiastas que buscam qualidade e inovação...  A Turner Studio oferece uma vasta seleção de instrumentos musicais, desde guitarras e teclados até baterias e acessórios especializados. Com um ambiente acolhedor e uma equipe apaixonada e experiente, nossa missão é proporcionar uma experiência única e inspiradora, seja você um profissional em busca de seu próximo instrumento ou um iniciante empolgado para começar sua jornada musical. Venha nos visitar e descubra tudo o que a Turner Studio tem a oferecer para aprimorar sua paixão pela música!
+
+    </p>
+</div>

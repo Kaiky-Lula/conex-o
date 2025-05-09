@@ -1,0 +1,5 @@
+﻿A construção começou em 21:54...
+1>------ Compilação iniciada: Projeto: Teste, Configuração: Debug Any CPU ------
+1>  Teste -> C:\Users\kaiky.lsilva\source\repos\Teste\Teste\bin\Debug\Teste.dll
+========== Compilação: 1 bem-sucedida, 0 com falha, 0 atualizada, 0 ignorada ==========
+========== Compilação concluído às 21:54 e levou 00,185 segundos ==========

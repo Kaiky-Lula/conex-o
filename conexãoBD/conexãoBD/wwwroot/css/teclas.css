@@ -1,0 +1,419 @@
+ /* Reset de margens e preenchimentos */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eeca06;
+    padding: 5px 6px;
+    color: #fff;
+    position: relative;
+}
+
+body {
+    background-color: #eeca06;
+}
+
+.logo{
+  display: flex;
+  cursor: pointer;
+}
+
+/* Estilo do logotipo */
+.logo img {
+    height: 100px;
+    /* Tamanho do logotipo */
+    margin-left: 30px;
+}
+
+/* Estilo dos links do menu */
+.menu {
+    display: flex;
+    list-style: none;
+
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: left;
+
+}
+
+
+/* Ícones no menu (apenas para Favoritos, Carrinho e Login) */
+.menu li.icon-only a {
+    font-size: 33px;
+    /* Tamanho dos ícones */
+    margin-top: 30%;
+}
+
+
+.icon-only:hover {
+    transform: scale(1.25);
+}
+
+
+.number {
+    display: flex;
+    margin-top: 5%;
+    color: black;
+
+}
+
+/* Estilo da barra de pesquisa */
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7%;
+    margin-left: 400px;
+    
+
+}
+
+.search-bar input[type="text"] {
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 600px;
+
+}
+
+.search-bar button {
+    margin-left: 7px;
+    padding: 7px 7px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.botao-pesquisa:hover {
+    transform: scale(1.10);
+}
+
+
+
+/* Toggle do menu para mobile */
+.menu-toggle {
+    display: none;
+    /* Esconde o ícone do menu em desktop */
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Esconde o checkbox que controla o menu mobile */
+#menu-mobile {
+    display: none;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+
+    /* Ajuste para exibir o ícone do menu em mobile */
+    .menu-toggle {
+        display: block;
+    }
+
+    /* Esconde o menu padrão e barra de pesquisa em mobile */
+    .menu,
+    .search-bar {
+        display: none;
+    }
+
+    /* Exibe o menu em coluna ao ativar o menu mobile */
+    #menu-mobile:checked~nav .menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        padding: 10px 0;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+}
+
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+.cat-corda {
+    padding-top: 20px;
+    border-bottom: 2px solid black;
+    margin-left: 1px;
+    display: flex;
+    background: linear-gradient(to right, gray, white);
+ 
+}
+
+.cat-corda img {
+    height: 50px;
+    margin-left: 870px;
+    margin-bottom: 5px;
+    
+
+}
+
+
+.cat-corda p {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    
+}
+
+
+.white-box{
+    background: linear-gradient(to right, gray, white);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 22px 2px black;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-gap: 30px;
+}
+
+.item{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.product{
+ text-align: center;
+ background-color:silver;
+ height: 220px;
+ width: 100%;
+ border-radius: 5px;   
+}
+
+.item img{
+    margin-top: 10px;
+    height: 90%;
+}
+
+.item img:hover{
+    transform: scale(1.10);
+}
+
+.item h3{
+    margin: 0;
+    color:#444 ;
+    font-size: 1.2rem;
+    margin: 10px 0px 10px 0px;
+}
+
+.item span{
+    color: #777;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.item button{
+    background-color:#eeca06;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.item button:hover{
+    transform: scale(1.02);
+    text-decoration: none;
+}
+
+.rodape{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+footer{
+    background-color:white;
+    color: black;
+    padding: 40px 0;
+}
+
+footer .linha1{
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 40px;
+ 
+}
+
+.linha1 h2{
+font-size: 2.5rem;
+}
+
+.linha1 p{
+font-size: 1.2rem;
+margin: 10px 0 20px 0;
+}
+
+.linha1 form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linha1 form input[type=email]{
+    width: 300px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid;
+    color: #eeca06;
+    padding: 10px;
+}
+
+.linha1 form input[type=submit]{
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.linha1 form input[type=submit]:hover{
+    background-color: white;
+    color: black;
+}
+
+footer .linha2{
+padding: 40px 0;
+display: flex;
+justify-content: space-between;
+border-bottom: 2px solid black;
+
+}
+
+footer .linha2 .box-line-footer{
+    max-width:calc(100% / 4);
+    
+}
+
+footer .box-line-footer img{
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.linha2 .box-line-footer h3{
+    color:#eeca06;
+    margin-bottom: 20px;
+}
+
+.linha2 .box-line-footer a{
+    color: black;
+    display: block; /* aqui as coisas ficam embaixo das outras */
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+.box-line-footer .btn-redes a{
+    display: inline;
+}
+
+.box-line-footer .btn-redes button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 2px solid;
+    color: black;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.box-line-footer .btn-redes button:hover{
+    transform: scale(1.10);
+}
+
+.linha3 h3{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.box-line-footer .btn-pay img{
+    height: 40px;
+    margin-left: 10%;
+}
+
+.box-line-footer .btn-pay button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10%;
+}
+
+.box-line-footer .btn-pay a{
+    display: inline-block;
+}
+
+.box-line-footer .btn-pay button:hover{
+    transform: scale(1.10);
+}
+
+.box-line-footer .btn-envio img{
+    height: 50px;
+    
+}
+
+.box-line-footer .btn-envio button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.box-line-footer .btn-envio a{
+    display: inline;
+}
+
+.box-line-footer .btn-envio button:hover{
+    transform: scale(1.10);
+}
+
